@@ -1,0 +1,72 @@
+/* style.css */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section styling */
+div {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Center and style profile image */
+#about {
+    text-align: center;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%; /* circular avatar */
+    border: 3px solid #333;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+a:visited {
+    color: purple;
+
+}
+
+a:visited:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+/* Contact form */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact input, #contact textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
